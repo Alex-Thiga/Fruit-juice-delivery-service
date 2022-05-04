@@ -1,8 +1,8 @@
 body{
-    background-image: url("./images/can-you-freeze-fruit-juice.jpg");
-    color: white;
+    background-image: url("./images/image3.jpg");
+    color: black;
     overflow-x: hidden;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
     margin: 15px;
@@ -19,6 +19,7 @@ header ul li{
     text-decoration: none;
     font-size: 20px;
     padding: 5px;
+    background-color: azure;
 
 }
 li img{
@@ -54,14 +55,29 @@ ul li button:hover{
 .section1 .left {
     width: 600px;
 }
-span #orange{
-    color: orange;
+span{
+    color: blue;
 }
-span #orange{
-    color: orange;
+
+span {
+    color: blue;
 }
-span #red{
-    color: red;
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px ;
+
+}
+.section2 img{
+    height: 500px;
+    width: 500px;
+    margin-right: 30px;
+}
+.section2 #right{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 
